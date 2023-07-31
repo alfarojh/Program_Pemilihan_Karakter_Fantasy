@@ -58,5 +58,6 @@ public class Main {
         System.out.println(karakterData[pilihKarakter][1]); // Menampilkan deskripsi karakter yang dipilih oleh pengguna.
         System.out.println(); // Menampilkan baris kosong untuk memberi jarak antara pesan dan akhir program.
         System.out.println("Selamat bermain permainan fantasy dengan karakter Mage Anda!");
+        scanner.close(); // Menutup scanner
     }
 }
